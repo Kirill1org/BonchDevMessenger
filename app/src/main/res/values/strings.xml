@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">BonchDevMessenger</string>
+    <string name="hello_everyone">Hello everyone!</string>
+    <string name="edit_email_hint_text">Почта</string>
+    <string name="edit_pass_text">Пароль</string>
+    <string name="sign_in_btn_text">Войти</string>
+    <string name="sign_up_btn_text">Зарегистрироваться</string>
+    <string name="reg_text">Регистрация</string>
+    <string name="reg_btn_text">Зарегистрироваться</string>
+    <string name="email_edit_hint_text">Почта</string>
+    <string name="login_edit_hint_text">Логин</string>
+    <string name="pass_edit_hint_text">Пароль</string>
+    <string name="conf_pass_edit_hint_text">Подтвердите пароль</string>
+    <string name="message_edit_hint_text">Введите текст сообщения</string>
+    <string name="example_mail_text_view">Example@gmail.com</string>
+    <string name="email_conf_btn_text">Подтвердить почту</string>
+    <string name="change_pass_btn_text">Поменять пароль</string>
+    <string name="sign_out_btn_text">Выйти</string>
+    <string name="name_edit_text">Анатолий</string>
+    <string name="old_pass_edit_hint_text">Старый пароль</string>
+    <string name="new_pass_edit_hint_text">Новый пароль</string>
 </resources>

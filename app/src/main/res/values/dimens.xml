@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hello_text_size">32sp</dimen>
+    <dimen name="reg_text_size">32sp</dimen>
+    <dimen name="email_text_size">24sp</dimen>
+</resources>
