@@ -7,14 +7,15 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import bonch.dev.school.R
-import bonch.dev.school.activities.MainAppActivity
 
 class ChatFragment : Fragment() {
 
     private lateinit var sendMessageBtn: Button
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
 
         val view = inflater.inflate(R.layout.fragment_chat, container, false)
         return view
@@ -28,17 +29,13 @@ class ChatFragment : Fragment() {
     }
 
     private fun setClickListeners() {
-        sendMessageBtn.setOnClickListener {
-            (context as MainAppActivity).showProfileFragment()
-
-        }
+/* Send action*/
     }
 
     private fun initViews(view: View) {
         sendMessageBtn = view.findViewById(R.id.send_message_button)
 
     }
-
 
 
 }
